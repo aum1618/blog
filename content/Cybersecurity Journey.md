@@ -52,8 +52,8 @@ I was overwhelmed when I started cybersecurity. I did not know what to learn and
 - [ ] Nessus
 
 ## Platforms
-- [ ] HackTheBox
-- [ ] TryHackMe
+- [ ] [[HackTheBox]]
+- [ ] [[TryHackMe]]
 - [ ] [[PortSwigger Academy]]
 - [ ] HackerOne
 - [ ] Bugcrowd
@@ -63,3 +63,6 @@ I was overwhelmed when I started cybersecurity. I did not know what to learn and
 - [ ] OWASP Juice Shop
 - [ ] VulnHub
 - [ ] CTFtime
+- [ ] PicoCTF
+- [ ] Rootme
+- [ ] CTFTime
