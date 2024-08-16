@@ -7,10 +7,10 @@ tags:
 ---
 # [Bounty Hacker CTF](https://tryhackme.com/r/room/cowboyhacker) - TryHackMe
 
-**Author:** [Sevuhl](https://tryhackme.com/p/Sevuhl)
-**Date:** July 31, 2020
-**Category:** General 
-**Difficulty:** Easy 
+**Author:** [Sevuhl](https://tryhackme.com/p/Sevuhl)  
+**Date:** July 31, 2020  
+**Category:** General   
+**Difficulty:** Easy   
 
 ---
 ## Challenge Description
@@ -101,7 +101,7 @@ I downloaded both files using the `get` command. looking into the tasks.txt file
 -***
 ```
 This answered the first question.
-Next looking at locks.txt I found a list of alphanumeric strings that looked like passwords. the SSH port (22) was also open. I had the Ip-address. I had the Ip-address I had the username and a list of passwords. I could try brute forcing it. This also answered one of our questions.
+Next looking at locks.txt I found a list of alphanumeric strings that looked like passwords. the SSH port (22) was also open. I had the Ip-address I had the username and a list of passwords. I could try brute forcing it. This also answered one of our questions of which service can be bruteforced.
 
 I used [[hydra]] to brute force SSH using the following command
 

@@ -7,9 +7,9 @@ Be sure to check out my.
 - [[Resume]]
 - [[Professional Career]]
 - [[Side Projects]]
-- [[Cybersecurity Journey|Learning Journey]]
-You can also find me on platforms like:
-- [[HackerOne]]
+- [[Cybersecurity Journey|Learning Journey]]  
+You can also find me on platforms like:  
+- [[HackerOne]]  
 - [[TryHackMe]]
 - [[HackTheBox]]
 - [[LinkedIn]]
