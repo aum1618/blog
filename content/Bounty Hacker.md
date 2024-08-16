@@ -31,7 +31,7 @@ Basically we have to answer a few basic questions about the given machine. Which
 First I deployed the machine and ran a basic [[Nmap]] scan to find the open ports.
 
 ```
-nmap 10.10.8.22 -vv -T4 
+nmap <ip-address> -vv -T4 
 ```
 
 This is the result we got
@@ -76,7 +76,7 @@ PORT      STATE  SERVICE         REASON
 next we have a look at the website and also run [[Gobuster]] on it along the side with a common wordlist.
 
 ```
-gobuster dir -u http://10.10.8.22 -w /usr/share/wordlists/dirb/common.txt
+gobuster dir -u http://<ip-address> -w /usr/share/wordlists/dirb/common.txt
 ```
 
 Well that did not reveal anything interesting. So After that I tried to anonymous login to ftp
@@ -90,6 +90,8 @@ I wanted to list down all the files on the ftp-server but I could not use `ls` c
 ```
 229 Entering Extended Passive Mode (|||19499|)
 ```
+
+A quick search told me that there a two different modes passive and Extended passive mode. I don't know the details however I will look into it later.  
 I ran the `help` command to look for the available commands . There I found `dir` which chatgpt told me works similar to `ls -l` . I used it and got two files.
 - locks.txt
 - tasks.txt
@@ -106,13 +108,13 @@ Next looking at locks.txt I found a list of alphanumeric strings that looked lik
 I used [[hydra]] to brute force SSH using the following command
 
 ```
-hydra -l *** -P locks.txt ssh://10.10.8.22
+hydra -l *** -P locks.txt ssh://<ip-address>
 ```
 
 I got the following response
 
 ```
-[DATA] attacking ssh://10.10.8.22:22/
+[DATA] attacking ssh://<ip-address>/
 [22][ssh] host: 10.10.8.22   login: ***   password: *****************
 1 of 1 target successfully completed, 1 valid password found
 ```
@@ -122,7 +124,8 @@ This answered one of our questions as well.
 I used the password and the username to log in to SSH
 
 I ran a simple `ls` command to find out what was inside and found the user.txt with a flag inside.
- to find the root.txt I tried to run the find command but was unable to find anything interesting without root privileges. I was unable to run using `sudo` as I did not have root permissions. I got stuck here and looked into another writeup where I found the `sudo -l` to list the allowed commands. It gave me the following response:
+ to find the root.txt I tried to run the find command but was unable to find anything interesting without root privileges. I was unable to run using `sudo` as I did not have root permissions. 
+ I got stuck here and looked into another writeup where I found that I could use  `sudo -l` to list the allowed commands. It gave me the following response:
  ```
  User lin may run the following commands on bountyhacker:
     (root) /bin/tar
