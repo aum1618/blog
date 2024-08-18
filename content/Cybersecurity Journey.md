@@ -50,6 +50,7 @@ I was overwhelmed when I started cybersecurity. I did not know what to learn and
 - [ ] Nikto
 - [ ] Gobuster
 - [ ] Nessus
+- [ ] Netcat
 
 ## Platforms
 - [ ] [[HackTheBox]]
