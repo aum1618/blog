@@ -40,7 +40,7 @@ I was overwhelmed when I started cybersecurity. I did not know what to learn and
 - [ ] XML External Entity (XXE) Attacks
 - [ ] Deserialization Attacks
 
-## Tools
+## Tools & Commands
 - [ ] Metasploit
 - [ ] BurpSuite/OWASP ZAP
 - [ ] Wireshark
@@ -51,6 +51,7 @@ I was overwhelmed when I started cybersecurity. I did not know what to learn and
 - [ ] Gobuster
 - [ ] Nessus
 - [ ] Netcat
+- [ ] [[SSH]]
 
 ## Platforms
 - [ ] [[HackTheBox]]
