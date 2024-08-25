@@ -48,6 +48,8 @@ I was overwhelmed when I started cybersecurity. I did not know what to learn and
 - [ ] John the Ripper
 - [ ] Hydra
 - [ ] Nikto
+- [ ] SMB
+- [ ] FTP
 - [ ] Gobuster
 - [ ] Nessus
 - [ ] Netcat

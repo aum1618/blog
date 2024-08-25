@@ -6,7 +6,7 @@ title: PortSwigger Academy
 - [ ] [[Authentication]] (14 Labs)
 - [ ] [[Path traversal]] (6 Labs)
 - [ ] [[Command injection]] (5 Labs)
-- [ ] Business logic vulnerabilities (11 Labs)
+- [ ] [[Business logic vulnerabilities]] (11 Labs)
 - [ ] [[Information disclosure]] (5 Labs)
 - [ ] Access control (13 Labs)
 - [ ] File upload vulnerabilities (7 Labs)
