@@ -70,3 +70,16 @@ I was overwhelmed when I started cybersecurity. I did not know what to learn and
 - [ ] PicoCTF
 - [ ] Rootme
 - [ ] CTFTime
+
+## **Bug Bounty Platforms**
+- HackerOne
+- Bugcrowd
+- Synack
+- Open Bug Bounties
+- Intigriti
+
+## Extra: Stay Updated
+
+- Subscribe to TheHackerNews
+- Follow Reddit's NetSec
+- Watch security talks (DEFCON, Black Hat, etc.)

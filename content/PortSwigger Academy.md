@@ -2,7 +2,7 @@
 title: PortSwigger Academy
 ---
 ## Server-side topics
-- [ ] SQL injection (18 Labs)
+- [ ] [[SQL injection]] (18 Labs)
 - [ ] [[Authentication]] (14 Labs)
 - [ ] [[Path traversal]] (6 Labs)
 - [ ] [[Command injection]] (5 Labs)
