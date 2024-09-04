@@ -1,0 +1,14 @@
+---
+title: File Upload Vulnerabilities
+tags:
+  - portSwiggerAcademy
+  - serverSide
+  - web
+---
+---
+File upload vulnerabilities are when a web server allows users to upload files to its filesystem without sufficiently validating things like their name, type, contents, or size. Failing to properly enforce restrictions on these could mean that even a basic image upload function can be used to upload arbitrary and potentially dangerous files instead. This could even include server-side script files that enable remote code execution.
+
+---
+## Practical
+- [[PortSwigger Academy Labs File upload vulnerabilities]]
+- 

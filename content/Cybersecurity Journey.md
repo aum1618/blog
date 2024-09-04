@@ -83,3 +83,4 @@ I was overwhelmed when I started cybersecurity. I did not know what to learn and
 - Subscribe to TheHackerNews
 - Follow Reddit's NetSec
 - Watch security talks (DEFCON, Black Hat, etc.)
+- InfoSec Writeups
